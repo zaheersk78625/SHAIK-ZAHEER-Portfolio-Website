@@ -1,11 +1,40 @@
-<div align="center">
+# Shaik Zaheer Portfolio
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A premium professional portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 Deployment to Vercel
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+To deploy your portfolio to Vercel, follow these steps:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. **Push your code to GitHub.**
+2. **Go to [Vercel](https://vercel.com/) and import your repository.**
+3. **Configure Environment Variables:**
+   During the setup, go to the "Environment Variables" section and add the following keys from your EmailJS dashboard:
+   - `VITE_EMAILJS_SERVICE_ID`: Your EmailJS Service ID.
+   - `VITE_EMAILJS_TEMPLATE_ID`: Your EmailJS Template ID.
+   - `VITE_EMAILJS_PUBLIC_KEY`: Your EmailJS Public Key.
+4. **Deploy!** Vercel will automatically detect Vite and run your build command.
 
-</div>
+## 🛠️ Tech Stack
+
+- **Framework:** React 19 (Vite)
+- **Styling:** Tailwind CSS 4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Forms:** EmailJS
+
+## 📁 Project Structure
+
+- `src/components/`: Reusable UI components for each section.
+- `src/hooks/`: Custom hooks like the typewriter effect.
+- `src/index.css`: Global styles and Tailwind configuration.
+- `vercel.json`: Handles SPA routing for production.
+
+## ✨ Features
+
+- Premium Glassmorphism UI
+- Fully Responsive Design
+- Smooth Scroll Animations
+- Typing Animation in Hero
+- Modern Contact Form Integration
+- Particle and Gradient Backgrounds
